@@ -1,0 +1,3 @@
+# Ignore .env file  
+# add your mongodb url
+.env

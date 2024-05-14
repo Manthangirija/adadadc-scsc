@@ -1,0 +1,122 @@
+.view_all {
+  background-color: #dce7eb;
+  width: 100%;
+  height: 100vh;
+overflow: hidden;
+}
+.dropdown {
+  width: 200px;
+  cursor: pointer;
+  border: none;
+}.view_all .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.view_all .title h1 {
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 10px;
+}
+.dropdown select {
+  border: none;
+}
+.export_pdf button {
+  padding: 9px;
+  background-color: #000000;
+  color: #fff;
+  height: 38px;
+  border-radius: 5px;
+  cursor: pointer;
+}.export_pdf button:hover{
+  background-color: #080707ad;
+}
+.btn_viewall {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}.main_list{
+    margin: 0 20px;
+}
+.main_list .item_list_title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 0 10px;
+
+}
+.transaction_details_lists{
+  margin-top: 20px;
+}
+.main_list .item_list_title p{
+    font-size: 15px;
+    font-weight: 700;
+}.transaction_details_lists ul {
+    /* padding-left: 0px; */
+    height: 470px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 10px 0 10px;
+}
+.transaction_details_lists ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.559); */
+ 
+}.transaction_details_lists ul li:hover{
+    color: rgb(113, 8, 145);
+}
+.title p{
+    position: absolute;
+    left: 25px;
+    background-color: #000000;
+    color: #fff;
+    /* height: 19px; */
+    /* width: 28px; */
+    text-align: center;
+    border-radius: 50%;
+    /* padding-top: 10px; */
+    padding: 3px 6px;
+
+}.title p .link{
+    color: #fff;
+}
+ .red_span{
+    color: red ;
+    font-weight: bold;
+}
+
+.transaction_details_lists table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction_details_lists th,
+.transaction_details_lists td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.transaction_details_lists th {
+  background-color: #f2f2f2;
+}
+.transaction_details_lists tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transaction_details_lists tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+.total_text{
+  font-weight: bold;
+}
+.error_messag{
+  color: red;
+  font-size: 20px;
+}

@@ -1,0 +1,69 @@
+.Signup_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.login_container {
+  width: 375px;
+  background-color: #dce7eb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+.login_container h1 {
+  font-weight: 600;
+  text-align: center;
+}
+.input_form,
+.signup_form {
+  display: flex;
+  flex-direction: column;
+}
+.input_form input,
+.input_form button {
+  width: 300px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+}
+.input_form input:focus,
+.input_form input:hover {
+  border: 1px solid rgb(132, 204, 25);
+}
+.signup_form {
+  justify-content: center;
+  align-items: center;
+}
+.input_form button {
+    margin-top: 20px;
+  width: 315px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #fff;
+}
+.input_form button:hover {
+  background-color: #000000c2;
+}
+.input_form label {
+  margin-bottom: 5px;
+}.input_form2 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.input_form2 input{
+cursor: pointer;
+margin-top: 6px;
+height: 15px;
+width: 15px;
+}.input_form2 label{
+  cursor: pointer;
+}
